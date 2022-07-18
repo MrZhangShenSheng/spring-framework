@@ -2,6 +2,7 @@ package org.springframework.zhang.learn;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @author ss_zhang
@@ -11,5 +12,6 @@ import org.springframework.context.annotation.Configuration;
  */
 @ComponentScan(value = "org.springframework.zhang.learn")
 @Configuration
+@EnableTransactionManagement
 public class AppConfig {
 }

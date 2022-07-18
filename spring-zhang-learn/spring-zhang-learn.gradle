@@ -3,4 +3,5 @@ description = "spring-zhang-learn"
 dependencies {
 	api(project(":spring-context"))
 	api(project(":spring-core"))
+	api(project(":spring-tx"))
 }

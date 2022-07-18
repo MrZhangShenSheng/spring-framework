@@ -14,6 +14,6 @@ public class Test {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		Object user = context.getBean("user");
 		System.err.println(user );
-
+		context.close();
 	}
 }
